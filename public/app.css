@@ -1,0 +1,27 @@
+html, body {margin: 0; padding: 0}
+
+.filter {
+  text-align: center;
+  padding: 20px;
+}
+
+.image {
+  display: inline-block;
+  width: 100px;
+  height: 180px;
+  padding: 10px;
+  border: 1px dotted #ccc;
+  overflow: hidden;
+  vertical-align: top;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.footer {
+  display: block;
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 10px;
+}
+
