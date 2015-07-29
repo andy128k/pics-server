@@ -77,7 +77,7 @@ var App = React.createClass({
 
   filtered: function() {
     return this.state.files.filter(function(file) {
-      return !this.state.filter || file.indexOf(this.state.filter) >= 0;
+      return !this.state.filter || file.name.indexOf(this.state.filter) >= 0;
     }, this);
   },
 
